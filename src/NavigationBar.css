@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Baloo+Bhaijaan+2&family=Carrois+Gothic+SC&family=Comfortaa&family=Concert+One&family=Dosis:wght@300&family=Genos:wght@300&family=Kumbh+Sans:wght@100;300;400;600;800&family=Lato&family=Montserrat:wght@300&family=Open+Sans+Condensed:wght@700&family=Pacifico&family=Pathway+Gothic+One&family=Patrick+Hand&family=Permanent+Marker&family=Raleway:wght@100;400&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;300&family=Special+Elite&family=Titillium+Web:wght@200&family=Ubuntu+Condensed&family=Voltaire&display=swap");
+*{
+    box-sizing: border-box;
+   
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body{
+      width:100%;
+      height:100%;
+      background-color:black;
+  }
+
+
+/* SECTION-1 Starts here */
+
+ .navbar {
+  width: 95%;
+  height: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.06rem solid rgba(145, 134, 129, 0.5);
+  padding-bottom: 1rem;
+  margin-left: 2.5rem;
+}
+
+.navbar .logo {
+  width: 6rem;
+  height: 4rem;
+  margin: 1rem;
+  margin-bottom: 0;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.logo_d {
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  align-items: center;
+  justify-content: left;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  opacity: 1;
+  color: wheat;
+}
+.logo_d span:first-child {
+  color: rgba(79, 229, 235, 0.8);
+  font-size: 1.45rem;
+  font-weight: bolder;
+}
+sup {
+  color: white;
+  margin: 0.3rem;
+  margin-bottom: 2rem;
+  font-size: 0.5rem;
+  opacity: 0.6;
+}
+.logo img {
+  width: 60%;
+  height: 80%;
+}
+
+.navbar .icons {
+  width: 25rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap:1rem; */
+  margin-top: 0.5rem;
+}
+
+.icons p {
+  color: rgba(247, 247, 247, 0.8);
+  font-size: 1.08rem;
+  width: 6.2rem;
+  height: 2.3rem;
+  font-family: "Raleway", sans-serif;
+  margin: 0.6rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+
+  text-align: center;
+}
+
+.icons .hire {
+  background-color: rgba(70, 70, 70, 0.4);
+  border: 0;
+  border-radius: 0.45rem;
+  color: whitesmoke;
+}
+
+.icons div {
+  width: 6rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.icons p:hover {
+  color: rgb(81, 226, 236);
+  font-size: 1.09rem;
+  transition: all 0.3s ease-in-out;
+}
+.icons .hire:hover {
+  color: white;
+
+  background-color: rgba(207, 4, 4, 0.6);
+  transition: all 0.4s ease-in-out;
+}
+
+.icons div img {
+  width: 54%;
+  height: 65%;
+  opacity: 0.6;
+}
+
+.sbar{
+  width:28rem;
+  height:3rem;
+  /* background-color:thistle; */
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  margin-top:0.8rem;
+
+}
+.sbar .search{
+  flex:5;
+  height:80%;
+  background-color: rgba(32, 32, 32, 0.7);
+  
+  border:0.003rem solid rgb(82, 81, 81);
+  border-right: 0;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size:1rem;
+  outline:none;
+  color:aliceblue;
+  padding:0 0.6rem;
+
+}
+.sbar .sbutton{
+  flex:0.5;
+  background-color: rgb(21, 11, 59);
+  height:80%;
+  
+  border:0;
+ 
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  color:white;
+  font-family: "Kumbh Sans", sans-serif;
+  outline:none;
+  cursor:pointer;
+  padding:0 0.5rem;
+  
+  
+
+
+
+
+
+}
+.sbar .sbutton:hover{
+  background-color: rgb(42, 21, 121);
+  color:azure;
+  
+}
